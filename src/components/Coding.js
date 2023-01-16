@@ -8,11 +8,12 @@ const Coding = () => {
         <div className="card">
             <h3>-LEETCODE-</h3>
             <span className="bar"></span>
-            <p className="rating">Rating : 1461</p>
-            <p>-Total Problems Solved : 340-</p>
-            <p>-Easy Problems Solved : 152-</p>
-            <p>-Medium Problems Solved : 183-</p>
-            <p>-Hard Problems Solved : 5-</p>
+            <p className="rating">Rating : 1546</p>
+            <p>-Total Problems Solved : 444-</p>
+            <p>-Easy Problems Solved : 189-</p>
+            <p>-Medium Problems Solved : 245-</p>
+            <p>-Hard Problems Solved : 9-</p>
+            <p>-Ranking : 106,494/355,439(Global)-</p>
             <a href="https://leetcode.com/mad_fkn_hur/" className="btn">Visit Leetcode</a>
         </div>
         <div className="card">

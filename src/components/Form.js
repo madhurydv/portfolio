@@ -1,21 +1,8 @@
 import "./FormStyles.css";
 import React from 'react';
-import emailjs from 'emailjs-com';
 
 
 const Form = () => {
-  function sendEmail(e)
-  {
-      e.preventDefault();
-      emailjs.sendForm(
-        "service_6earas8",
-        "template_vbvk557",
-        e.target,
-        "dUS9VAD1rr8NLCG7s"
-      ).then(res=>{
-        console.log(res);
-      }).catch(err=>console.log(err));
-  }
   return (
     <div className="form">
           <form>
