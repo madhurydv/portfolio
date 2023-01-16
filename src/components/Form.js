@@ -1,21 +1,6 @@
 import "./FormStyles.css";
 import React from 'react';
-// import emailjs from 'emailjs-com';
-
-
-const Form = () => {
-  // function sendEmail(e)
-  // {
-  //     e.preventDefault();
-  //     emailjs.sendForm(
-  //       "service_6earas8",
-  //       "template_vbvk557",
-  //       e.target,
-  //       "dUS9VAD1rr8NLCG7s"
-  //     ).then(res=>{
-  //       console.log(res);
-  //     }).catch(err=>console.log(err));
-  // }
+const Form = () => { 
   return (
     <div className="form">
           <form action="mailto:madhury571@gmail.com" method="post" enctype="text/plain">
@@ -30,5 +15,4 @@ const Form = () => {
     </div>
   )
 }
-
-export default Form
+export default Form;
