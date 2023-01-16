@@ -9,7 +9,7 @@ const ProjectCardData = [
     {
         imgSrc:require('../assets/project2.jpg'),
         title:"The Meme Generator",
-        text:"A React based app which allows user to generate various memes trough a memes API.",
+        text:"A React based app which allows user to generate various memes through a memes API.",
         view:"https://maymaygenerator.netlify.app/",
         source:"https://github.com/madhurydv/meme-generator"
     },
