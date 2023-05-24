@@ -8,23 +8,23 @@ const Coding = () => {
         <div className="card">
             <h3>-LEETCODE-</h3>
             <span className="bar"></span>
-            <p className="rating">Rating : 1546</p>
-            <p>-Total Problems Solved : 444-</p>
-            <p>-Easy Problems Solved : 189-</p>
-            <p>-Medium Problems Solved : 245-</p>
-            <p>-Hard Problems Solved : 9-</p>
-            <p>-Ranking : 106,494/355,439(Global)-</p>
+            <p className="rating">Rating : 1657</p>
+            <p>-Total Problems Solved : 663-</p>
+            <p>-Easy Problems Solved : 252-</p>
+            <p>-Medium Problems Solved : 392-</p>
+            <p>-Hard Problems Solved : 19-</p>
+            <p>-Ranking : 60,376/398,523(Global)-</p>
             <a href="https://leetcode.com/mad_fkn_hur/" className="btn">Visit Leetcode</a>
         </div>
         <div className="card">
             <h3>-CODEFORCES-</h3>
             <span className="bar"></span>
-            <p className="rating">Rating : 1193</p>
-            <p>-Total Problems Solved : 283-</p>
-            <p>-Total Contests : 35-</p>
-            <p>-Best Gloabl Rank : 2450-</p>
-            <p>-Ranking : 11(Intitutional),37920(Global)-</p>
-            <a href="https://codeforces.com/profile/mad_fkn_hur" className="btn">Visit Codeforces</a>
+            <p className="rating">Rating : 1203</p>
+            <p>-Total Problems Solved : 103-</p>
+            <p>-Total Contests : 16-</p>
+            <p>-Tag : Pupil-</p>
+            <p>-Ranking : 13(Intitutional),35033(Global)-</p>
+            <a href="https://codeforces.com/profile/madhurrrrr" className="btn">Visit Codeforces</a>
         </div>
         <div className="card">
             <h3>-CODECHEF-</h3>

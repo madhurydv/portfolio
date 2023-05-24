@@ -32,7 +32,7 @@ const Footer = () => {
             <ul className="socials">
             <li><a href="https://www.instagram.com/mad_fkn_hur/"><FaInstagram size={20} style={{color:"#fff",marginRight:"2rem"}}></FaInstagram></a></li>
             <li><a href="https://twitter.com/Mad_fkn_hur"><FaTwitter size={20} style={{color:"#fff",marginRight:"2rem"}}></FaTwitter></a></li>
-            <li><a href="https://www.linkedin.com/in/madhur-yadav-6s2002"><FaLinkedin size={20} style={{color:"#fff",marginRight:"2rem"}}></FaLinkedin></a></li>
+            <li><a href="https://www.linkedin.com/in/madhurydv/"><FaLinkedin size={20} style={{color:"#fff",marginRight:"2rem"}}></FaLinkedin></a></li>
             <li><a href="https://github.com/madhurydv"><FaGithub size={20} style={{color:"#fff",marginRight:"2rem"}}></FaGithub></a></li>
             </ul>
         </div>
