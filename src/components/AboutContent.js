@@ -7,7 +7,7 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>Who Am I?</h1>
-            <p>I am an undergrad Engineer<br/> MERN Stack Developer and a Competitive Programmer</p>
+            <p>I am an Engineering Undegrad<br/>At LNCT Bhopal with 8.34 CGPA.<br/>Who enjoys solving problems.</p>
         </div>
         <Link to="/contact">
             <button className="btn">Contact Me.</button>

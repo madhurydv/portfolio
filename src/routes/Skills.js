@@ -2,15 +2,15 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Heroimg2 from '../components/Heroimg2'
-import AboutContent from '../components/AboutContent'
-const About = () => {
+import Skillcomp from '../components/Skillcomp'
+const Skills = () => {
   return (
     <div>
       <Navbar/>
-      <Heroimg2 heading="ABOUT ME." text="I am a part time rapper and full time programmer."/>
-      <AboutContent/>
+      <Heroimg2 heading="My Skill Set."/>
+      <Skillcomp/>
       <Footer/>
     </div>
   )
 }
-export default About
+export default Skills
