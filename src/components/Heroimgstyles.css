@@ -39,6 +39,11 @@
 .hero .content h1 {
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
+    line-height: 0.5em;
+}
+.h1s{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .hero .content p {
@@ -49,6 +54,10 @@
 
 .content .btn {
     margin: 1rem 0.2rem;
+}
+.homebtns{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width:640px) {

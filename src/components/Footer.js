@@ -14,14 +14,14 @@ const Footer = () => {
                 </div>
             </div>
             <div className="phone">
-               <h4> 
                 <FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}}></FaPhone>
+               <h4> 
                 +91-7024025625
                 </h4>
             </div>
             <div className="email">
-               <h4> 
                 <FaMailBulk size={20} style={{color:"#fff",marginRight:"2rem"}}></FaMailBulk>
+               <h4> 
                 madhury571@gmail.com
                 </h4>
             </div>
@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="right">
             <h4>My Socials</h4>
             <ul className="socials">
-            <li><a href="https://www.instagram.com/mad_fkn_hur/"><FaInstagram size={20} style={{color:"#fff",marginRight:"2rem"}}></FaInstagram></a></li>
-            <li><a href="https://twitter.com/Mad_fkn_hur"><FaTwitter size={20} style={{color:"#fff",marginRight:"2rem"}}></FaTwitter></a></li>
-            <li><a href="https://www.linkedin.com/in/madhurydv/"><FaLinkedin size={20} style={{color:"#fff",marginRight:"2rem"}}></FaLinkedin></a></li>
-            <li><a href="https://github.com/madhurydv"><FaGithub size={20} style={{color:"#fff",marginRight:"2rem"}}></FaGithub></a></li>
+            <li><a href="https://www.instagram.com/mad_fkn_hur/"><FaInstagram size={35} style={{color:"#fff",marginRight:"2rem"}}></FaInstagram></a></li>
+            <li><a href="https://twitter.com/Mad_fkn_hur"><FaTwitter size={35} style={{color:"#fff",marginRight:"2rem"}}></FaTwitter></a></li>
+            <li><a href="https://www.linkedin.com/in/madhurydv/"><FaLinkedin size={35} style={{color:"#fff",marginRight:"2rem"}}></FaLinkedin></a></li>
+            <li><a href="https://github.com/madhurydv"><FaGithub size={35} style={{color:"#fff",marginRight:"2rem"}}></FaGithub></a></li>
             </ul>
         </div>
       </div>

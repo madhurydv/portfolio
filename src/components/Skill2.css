@@ -1,0 +1,33 @@
+
+:root{
+    --color1: #12c2e9;
+    --color2: #c471ed;
+    --color3: #f64f59;
+    overflow-x: hidden;
+  }
+.app{
+    width: 100vw;
+    position: relative;
+    background-color: #000;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.circle-bg{
+    fill: none;
+}
+.circle-progress{
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+.circle-text{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+svg{
+    width: 25vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
