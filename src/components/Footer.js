@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="right">
             <h4>My Socials</h4>
             <ul className="socials">
-            <li><a href="https://www.instagram.com/mad_fkn_hur/"><FaInstagram size={35} style={{color:"#fff",marginRight:"2rem"}}></FaInstagram></a></li>
-            <li><a href="https://twitter.com/Mad_fkn_hur"><FaTwitter size={35} style={{color:"#fff",marginRight:"2rem"}}></FaTwitter></a></li>
-            <li><a href="https://www.linkedin.com/in/madhurydv/"><FaLinkedin size={35} style={{color:"#fff",marginRight:"2rem"}}></FaLinkedin></a></li>
-            <li><a href="https://github.com/madhurydv"><FaGithub size={35} style={{color:"#fff",marginRight:"2rem"}}></FaGithub></a></li>
+            <li><a href="https://www.instagram.com/mad_fkn_hur/"><FaInstagram size={30} style={{color:"#fff"}}></FaInstagram></a></li>
+            <li><a href="https://twitter.com/Mad_fkn_hur"><FaTwitter size={30} style={{color:"#fff"}}></FaTwitter></a></li>
+            <li><a href="https://www.linkedin.com/in/madhurydv/"><FaLinkedin size={30} style={{color:"#fff"}}></FaLinkedin></a></li>
+            <li><a href="https://github.com/madhurydv"><FaGithub size={30} style={{color:"#fff"}}></FaGithub></a></li>
             </ul>
         </div>
       </div>
