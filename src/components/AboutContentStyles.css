@@ -1,55 +1,80 @@
 .about {
-    position: relative;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 72vh;
-    margin-top: -7%;
+  position: relative;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 72vh;
+  margin-top: -7%;
 }
 
 .about .left {
-    position: absolute;
-    width: 30%;
-    text-align: center;
-    left: 5%;
+  position: absolute;
+  width: 30%;
+  text-align: center;
+  left: 5%;
 }
 
 .about .left p {
-    margin: 1.2rem 0;
+  margin: 1.2rem 0;
 }
 
 .about .right {
-   position: absolute;
-   width: 50%;
-   right : 2%;
-   top: 20%;
+  position: absolute;
+  width: 50%;
+  right: 2%;
+  top: 20%;
 }
 
 .right .img-container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
-    align-items: center;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
 }
 
 .right .img {
-    width: 65%;
-    border: 1px solid #333;
+  width: 65%;
+  border: 1px solid #333;
 }
 
 .right .top {
-    grid-column: 1/ span 8;
-    grid-row: 1;
-    padding-top: 20%;
-    z-index: 6;
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 20%;
+  z-index: 6;
 }
 
 .right .bottom {
-    grid-column: 4/ -1;
-    grid-row: 1;
-    z-index: 5;
-    margin-right: 8px;
+  grid-column: 4/ -1;
+  grid-row: 1;
+  z-index: 5;
+  margin-right: 8px;
+}
+@media screen and (max-width: 640px) {
+  .about .left p {
+    font-size: 3vw;
+    text-align: center;
+  }
+  .about .left h1 {
+    font-size: 5vw;
+  }
+  .about .left {
+    width: 40%;
+  }
+  .right .img {
+    width: 75%;
+    border: 1px solid #333;
+  }
+  .about {
+    height: 45vh;
+  }
+  .about .btn {
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+    transform: translateX(50%);
+  }
 }
