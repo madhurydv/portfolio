@@ -68,4 +68,7 @@
   .hero .content p {
     font-size: 3.3vw;
   }
+  .mask {
+    height: 80vh;
+  }
 }

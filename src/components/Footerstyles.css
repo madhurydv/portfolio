@@ -3,6 +3,7 @@
   width: 100vw;
   height: 55vh;
   background-color: rgba(19, 19, 19, 0.8);
+  overflow: hidden;
 }
 
 .footer-container {
@@ -66,9 +67,32 @@
   text-align: center;
   transform: translateX(-50%);
 }
-.socials{
+.socials {
   display: flex;
   flex-wrap: wrap;
   width: 130%;
   margin-top: 7%;
+}
+@media screen and (max-width: 640px) {
+  .left .location div {
+    font-size: 3vw;
+    margin-left: 35px;
+  }
+  .left .phone {
+    margin-left: 15px;
+  }
+  .left .phone h4 {
+    font-size: 3vw;
+    margin-left: 30px;
+  }
+  .left .email h4 {
+    font-size: 3vw;
+    margin-left: 35px;
+  }
+  .right h4 {
+    font-size: 3vw;
+  }
+  .footer .left {
+    margin-left: -40px;
+  }
 }
