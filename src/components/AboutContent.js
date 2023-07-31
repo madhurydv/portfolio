@@ -10,7 +10,7 @@ const AboutContent = () => {
             <p>I am an Engineering Undegrad<br/>At LNCT Bhopal with 8.34 CGPA.<br/>Who enjoys solving problems.</p>
         </div>
         <Link to="/contact">
-            <button className="btn">Contact Me.</button>
+        <button onClick={() => window.location.href='https://drive.google.com/file/d/1oJsJiw3m8iFdN5JJJWHnNk30moJhsrOL/view'} className="btn">My Resume.</button>
         </Link>
         <div className="right">
             <div className="img-container">

@@ -14,7 +14,7 @@ export const Skill2 = () => {
       </RubberBand>
       <RubberBand>
         <Fade duration={3000}>
-          <CircleRing percent={80} circleWidth="200" intext="CSS" />
+          <CircleRing percent={60} circleWidth="200" intext="CSS" />
         </Fade>
       </RubberBand>
       <RubberBand>
@@ -24,22 +24,22 @@ export const Skill2 = () => {
       </RubberBand>
       <RubberBand>
         <Fade duration={3000}>
-          <CircleRing percent={85} circleWidth="200" intext="REACT JS" />
+          <CircleRing percent={65} circleWidth="200" intext="REACT JS" />
         </Fade>
       </RubberBand>
       <RubberBand>
         <Fade duration={3000}>
-          <CircleRing percent={70} circleWidth="200" intext="NODE JS" />
+          <CircleRing percent={50} circleWidth="200" intext="NODE JS" />
         </Fade>
       </RubberBand>
       <RubberBand>
         <Fade duration={3000}>
-          <CircleRing percent={70} circleWidth="200" intext="NODE JS" />
+          <CircleRing percent={70} circleWidth="200" intext="MONGO DB" />
         </Fade>
       </RubberBand>
       <RubberBand>
         <Fade duration={3000}>
-          <CircleRing percent={70} circleWidth="200" intext="NODE JS" />
+          <CircleRing percent={60} circleWidth="200" intext="MY SQL" />
         </Fade>
       </RubberBand>
     </div>

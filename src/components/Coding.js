@@ -9,10 +9,10 @@ const Coding = () => {
             <h3>-LEETCODE-</h3>
             <span className="bar"></span>
             <p className="rating">Rating : 1766</p>
-            <p>-Problems Solved : 763-</p>
+            <p>-Problems Solved : 800-</p>
             <p>-Ranked in Top 9.39% coders-</p>
             <p>-Best Global Contest Rank : 2018-</p>
-            <p>-Overall Rank 21,045-<br/>-Contest Rank : 37,529-</p>
+            <p>-Overall Rank 18,738-<br/>-Contest Rank : 37,529-</p>
             <a href="https://leetcode.com/mad_fkn_hur/" className="btn">Visit Leetcode</a>
         </div>
         <div className="card">
